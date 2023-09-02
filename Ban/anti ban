@@ -1,0 +1,5 @@
+print("RainCloud's Anti-Ban is Currently Active")
+game.Players.LocalPlayer.Character.HumanoidRootPart.Name = "AntiBanActive"
+game.Players.LocalPlayer.CharacterAdded:connect(function(char)
+char.HumanoidRootPart.Name = "AntiBanActive"
+end)
